@@ -6,7 +6,7 @@ body {
     font-size: 12px;
 }
 
-/* NAVBAR */
+/* NAVBAR DESKTOP */
 
 nav {
     height: 100px;
@@ -14,13 +14,23 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 1rem;
     padding: 0 10% 0 10%;
     background-color: #E7E2E0;
 }
 
+nav #logo {
+    width: 40%;
+}
+
 nav #logo img {
-    width: 400px;    
+    width: 100%;
+}
+
+nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav ul {
@@ -47,4 +57,21 @@ nav li:nth-child(2) a:hover, nav li:nth-child(2) a:active {
 
 nav li:nth-child(3) a:hover, nav li:nth-child(3) a:active {
     text-decoration: line-through 2px #020E48;
+}
+
+/* NAV MOBILE */
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        justify-content: center;
+    }
+
+    nav .menu {
+        display: none;
+    }
+
+    nav #logo {
+        width: 70%;    
+    }
 }
