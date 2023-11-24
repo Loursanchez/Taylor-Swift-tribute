@@ -1,0 +1,13 @@
+<svg width="116" height="120" viewBox="0 0 116 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Arrow button">
+<circle id="Ellipse 2" cx="58" cy="62" r="58" fill="white"/>
+<circle id="Ellipse 1" cx="58" cy="58" r="58" fill="url(#paint0_linear_73_160)"/>
+<path id="Vector 5" d="M25 52L57 78L89 52" stroke="white" stroke-width="10"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_73_160" x1="0" y1="0" x2="49.2557" y2="137.799" gradientUnits="userSpaceOnUse">
+<stop stop-color="#020021"/>
+<stop offset="1" stop-color="#020E48"/>
+</linearGradient>
+</defs>
+</svg>
