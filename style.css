@@ -14,11 +14,24 @@ footer {
     footer{
         display: flex;
         justify-content:space-between;
-        margin-left: 10%;
-        margin-right:10%;
         text-align: left;
-      
+        padding: 2% 10% 2% 10%;
     }
+    .header-image-container-home {
+        background-image: url(Images/header-taylor-swift-tributo.jpg);
+        background-size: cover;
+        background-position: 40% 50%;
+        background-repeat: no-repeat;
+    }
+}
+
+.header-image-container-home {
+    height: 900px;
+    width: auto;
+    background-image: url(Images/header-taylor-swift-tributo.jpg);
+    background-size: cover;
+    /* background-position: center 50%; */
+    background-repeat: no-repeat;
 }
 
 body {
