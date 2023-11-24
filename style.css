@@ -13,8 +13,9 @@ footer {
     footer{
         display: flex;
         
-
+    }
 }
+
 body {
     background-color: #F9F4F2; 
     color: #000; 
