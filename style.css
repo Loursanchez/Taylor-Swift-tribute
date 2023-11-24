@@ -1,7 +1,8 @@
 
 /* FOOTER mobile */
-p {
+footer p {
     font-family: 'Roboto Mono', monospace;
+    color:#000
 }
 
 footer {
