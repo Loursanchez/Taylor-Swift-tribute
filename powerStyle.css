@@ -1,0 +1,206 @@
+body {
+    background-image: linear-gradient(rgba(2, 0, 33, 1), rgba(2, 14, 72, 1));
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+/*style to maje all text white */
+h1, h2, h3, p, li, h4, h5, a { color: white;}
+
+/* header image */
+
+.header-container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.img-container { 
+    /* display: flex;  */
+    width: 100%;
+    height: 100%;
+} 
+
+@media screen and (max-width: 768px) {
+    .header-image-container {
+        background-image: url(images/header-image-power-mobile.png);
+        background-size: cover;
+        background-position: 40% 50%;
+        background-repeat: no-repeat;
+    }
+}
+
+.header-image-container {
+    height: 900px;
+    width: auto;
+    background-image: url(images/header-image-power-desktop.jpg);
+    background-size: cover;
+    /* background-position: center 50%; */
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Permanent Marker;
+}
+
+.power-era {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -85%);
+}
+
+.arrow {
+    position: absolute;
+    left: 45%;
+    top: 95%;
+    transform: translate(-50%, -10%);
+}
+
+
+@media screen and (max-width: 768px) {
+    .arrow {
+        top: 97%;
+        left: 50%;
+    }
+}
+
+main {
+    margin-top: 5%;
+}
+
+/* info screen  */
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+}
+
+.info-image {
+    width: 30%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 2px;
+    background-image: url(images/image-power-info-desktop.jpg);
+    background-size: cover;
+    background-position: center 35%;
+    background-repeat: no-repeat;
+}
+
+.info-text-container {
+    width: 50%;
+    margin-left: 0;
+    border: 5px solid white;
+    border-radius: 2px;
+    padding-left: 1%;
+}
+
+@media screen and (max-width: 768px) {
+    .info-container {
+        margin-top: 15%;
+        margin-left: 15%;
+        margin-right: 15%;
+        align-items: center;
+    }
+    
+    .info-image {
+        width: 100%;
+        height: 30rem;
+        background-position: center 40%;
+    }
+
+    .info-text-container {
+        width: 100%;
+        height: 100%;
+        margin-top: 10%;
+        padding: 0;
+        margin-left: 0;
+    }
+}
+
+
+/* lover section  */
+.era-container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.era-image {
+    width:30%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 2px;
+}
+
+.era-text-container {
+    margin-left: 5%;
+    /* padding-left: 10%;
+    padding-right: 0; */ 
+}
+
+.songs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 20px;
+}
+
+.songs-container a {
+    text-decoration:underline;
+    margin: 0;
+    padding: 0;
+}
+
+.read-more {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .era-container {
+        /* flex-direction: column; */
+        margin-top: 15%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .era-image {
+        height: 100%;
+        /* background-color: blue; */
+    }
+
+    .era-text-container {
+        /* width: 60%; */
+        /* background-color: aqua; */
+        /* margin: 0; */
+        height: auto;
+    }
+
+    .left-side-era {
+        margin-left: 0%;
+    }
+    p {
+        display: none;
+    }
+
+    .read-more {
+        display: block;
+    }
+
+    .songs-container {
+        display: none;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
