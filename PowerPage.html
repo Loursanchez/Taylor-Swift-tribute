@@ -11,29 +11,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Permanent+Marker&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans:ital,wght@1,300&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <!--NAVBAR-->
-    <nav>
-        <div id="logo"><img src="images/logo-taylor-swift-tribute.svg" alt="Logo Taylor Swift Tribute"></div>
-        <div class="menu">
-            <ul>
-                <li><a href="lovestory.html">Love Story</a></li>
-                <li><a href="pop.html">Pop</a></li>
-                <li><a href="power.html">Power</a></li>
-            </ul>
-        </div>
-    </nav>
+        <nav>
+            <div id="logo"><img src="images/logo-taylor-swift-tribute.svg" alt="Logo Taylor Swift Tribute"></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="lovestory.html">Love Story</a></li>
+                    <li><a href="pop.html">Pop</a></li>
+                    <li><a href="power.html">Power</a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="header-container">
             <div class="header-image-container"></div>
             <h1 class="power-era">Power era</h1>
 
             <img class="arrow" srcset="images/Arrow-mobile.svg 768w,
-            images/Arrow-desktop.svg 1024w"
-            sizes="(max-width: 767px) 100vw, 50vw"
-            alt="Responsive arrow">
+            images/Arrow-desktop.svg 1024w" sizes="(max-width: 767px) 100vw, 50vw" alt="Responsive arrow">
         </div>
     </header>
     <main>
@@ -60,16 +63,50 @@
             <div class="era-text-container">
                 <h2>Lover,2019</h2>
                 <h4>I'm the only one of me</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente vitae ab, recusandae in dicta mollitia saepe obcaecati velit cupiditate natus nostrum dolorem. Possimus a sunt nostrum aliquid aut esse.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptate. Voluptas repellendus placeat dignissimos, maxime reprehenderit exercitationem similique id officiis, explicabo dolor quas minus autem saepe non? Suscipit, delectus voluptas.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae tenetur minima error voluptate unde quisquam explicabo fugit facilis laborum! Similique aperiam veniam, ullam dignissimos libero placeat. Iusto, numquam? Tempora!</p>
-                <div class="songs-container">
-                    <a href="https://www.youtube.com/watch?v=FuXNumBwDOM&ab_channel=TaylorSwiftVEVO" target="_blank">me</a>
-                    <a href="https://www.youtube.com/watch?v=AqAJLh9wuZ0&ab_channel=TaylorSwiftVEVO" target="_blank">man</a>
-                    <a href="https://www.youtube.com/watch?v=Dkk9gvTmCXY&ab_channel=TaylorSwiftVEVO" target="_blank">you need to calm down</a>
-                    <a href="https://www.youtube.com/watch?v=ic8j13piAhQ&ab_channel=TaylorSwiftVEVO" target="_blank">cruel summer</a>
+                <div class="era-text" id="era-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente vitae ab, recusandae in
+                        dicta
+                        mollitia saepe obcaecati velit cupiditate natus nostrum dolorem. Possimus a sunt nostrum aliquid
+                        aut
+                        esse.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptate. Voluptas repellendus
+                        placeat dignissimos, maxime reprehenderit exercitationem similique id officiis, explicabo dolor
+                        quas
+                        minus autem saepe non? Suscipit, delectus voluptas.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae tenetur minima error
+                        voluptate
+                        unde quisquam explicabo fugit facilis laborum! Similique aperiam veniam, ullam dignissimos
+                        libero
+                        placeat. Iusto, numquam? Tempora!</p>
                 </div>
-                <p class="read-more"><b>Read More</b></p>
+                <div class="songs-container">
+                    <a href="https://www.youtube.com/watch?v=FuXNumBwDOM&ab_channel=TaylorSwiftVEVO"
+                        target="_blank">me</a>
+                    <a href="https://www.youtube.com/watch?v=AqAJLh9wuZ0&ab_channel=TaylorSwiftVEVO"
+                        target="_blank">man</a>
+                    <a href="https://www.youtube.com/watch?v=Dkk9gvTmCXY&ab_channel=TaylorSwiftVEVO" target="_blank">you
+                        need to calm down</a>
+                    <a href="https://www.youtube.com/watch?v=ic8j13piAhQ&ab_channel=TaylorSwiftVEVO"
+                        target="_blank">cruel summer</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="read-more-section">
+            <button id="read-more-1" class="read-more">
+                <b>Read More</b>
+            </button>
+            <script src="read-more-button-script.js"></script>
+            <div id="era-text-mobile-1" class="era-text-mobile-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                    sapiente vitae ab, recusandae in dicta mollitia saepe obcaecati velit cupiditate natus nostrum
+                    dolorem. Possimus a sunt nostrum aliquid aut esse.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+                    voluptate. Voluptas repellendus placeat dignissimos, maxime reprehenderit exercitationem
+                    similique id officiis, explicabo dolor quas minus autem saepe non? Suscipit, delectus voluptas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                    quae tenetur minima error voluptate unde quisquam explicabo fugit facilis laborum! Similique
+                    aperiam veniam, ullam dignissimos libero placeat. Iusto, numquam? Tempora!</p>
             </div>
         </section>
 
@@ -78,54 +115,153 @@
             <div class="era-text-container left-side-era">
                 <h2>Folklore,2020</h2>
                 <h4>When you are young they assume you know nothin'</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente vitae ab, recusandae in dicta mollitia saepe obcaecati velit cupiditate natus nostrum dolorem. Possimus a sunt nostrum aliquid aut esse.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptate. Voluptas repellendus placeat dignissimos, maxime reprehenderit exercitationem similique id officiis, explicabo dolor quas minus autem saepe non? Suscipit, delectus voluptas.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae tenetur minima error voluptate unde quisquam explicabo fugit facilis laborum! Similique aperiam veniam, ullam dignissimos libero placeat. Iusto, numquam? Tempora!</p>
-                <div class="songs-container">
-                    <a href="https://www.youtube.com/watch?v=FuXNumBwDOM&ab_channel=TaylorSwiftVEVO" target="_blank">me</a>
-                    <a href="https://www.youtube.com/watch?v=AqAJLh9wuZ0&ab_channel=TaylorSwiftVEVO" target="_blank">man</a>
-                    <a href="https://www.youtube.com/watch?v=Dkk9gvTmCXY&ab_channel=TaylorSwiftVEVO" target="_blank">you need to calm down</a>
-                    <a href="https://www.youtube.com/watch?v=ic8j13piAhQ&ab_channel=TaylorSwiftVEVO" target="_blank">cruel summer</a>
+                <div class="era-text" id="era-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente vitae ab, recusandae in
+                        dicta
+                        mollitia saepe obcaecati velit cupiditate natus nostrum dolorem. Possimus a sunt nostrum aliquid
+                        aut
+                        esse.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptate. Voluptas repellendus
+                        placeat dignissimos, maxime reprehenderit exercitationem similique id officiis, explicabo dolor
+                        quas
+                        minus autem saepe non? Suscipit, delectus voluptas.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae tenetur minima error
+                        voluptate
+                        unde quisquam explicabo fugit facilis laborum! Similique aperiam veniam, ullam dignissimos
+                        libero
+                        placeat. Iusto, numquam? Tempora!</p>
                 </div>
-                <p class="read-more"><b>Read More</b></p>
+                <div class="songs-container">
+                    <a href="https://www.youtube.com/watch?v=FuXNumBwDOM&ab_channel=TaylorSwiftVEVO"
+                        target="_blank">me</a>
+                    <a href="https://www.youtube.com/watch?v=AqAJLh9wuZ0&ab_channel=TaylorSwiftVEVO"
+                        target="_blank">man</a>
+                    <a href="https://www.youtube.com/watch?v=Dkk9gvTmCXY&ab_channel=TaylorSwiftVEVO" target="_blank">you
+                        need to calm down</a>
+                    <a href="https://www.youtube.com/watch?v=ic8j13piAhQ&ab_channel=TaylorSwiftVEVO"
+                        target="_blank">cruel summer</a>
+                </div>
             </div>
-            <img src="images/lover-image.jpg" alt="" class="era-image">
+            <img src="images/folklore-image.jpg" alt="" class="era-image">
+        </section>
+
+        <section class="read-more-section">
+            <button id="read-more-2" class="read-more">
+                <b>Read More</b>
+            </button>
+            <script src="read-more-button-script.js"></script>
+            <div id="era-text-mobile-2" class="era-text-mobile-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                    sapiente vitae ab, recusandae in dicta mollitia saepe obcaecati velit cupiditate natus nostrum
+                    dolorem. Possimus a sunt nostrum aliquid aut esse.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+                    voluptate. Voluptas repellendus placeat dignissimos, maxime reprehenderit exercitationem
+                    similique id officiis, explicabo dolor quas minus autem saepe non? Suscipit, delectus voluptas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                    quae tenetur minima error voluptate unde quisquam explicabo fugit facilis laborum! Similique
+                    aperiam veniam, ullam dignissimos libero placeat. Iusto, numquam? Tempora!</p>
+            </div>
         </section>
 
         <section class="era-container">
-            <img src="images/lover-image.jpg" alt="" class="era-image">
+            <img src="images/evermore-image.jpg" alt="" class="era-image">
             <div class="era-text-container">
                 <h2>Evermore,2020</h2>
-                <h4>I'm the only one of me</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente vitae ab, recusandae in dicta mollitia saepe obcaecati velit cupiditate natus nostrum dolorem. Possimus a sunt nostrum aliquid aut esse.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptate. Voluptas repellendus placeat dignissimos, maxime reprehenderit exercitationem similique id officiis, explicabo dolor quas minus autem saepe non? Suscipit, delectus voluptas.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae tenetur minima error voluptate unde quisquam explicabo fugit facilis laborum! Similique aperiam veniam, ullam dignissimos libero placeat. Iusto, numquam? Tempora!</p>
-                <div class="songs-container">
-                    <a href="https://www.youtube.com/watch?v=FuXNumBwDOM&ab_channel=TaylorSwiftVEVO" target="_blank">me</a>
-                    <a href="https://www.youtube.com/watch?v=AqAJLh9wuZ0&ab_channel=TaylorSwiftVEVO" target="_blank">man</a>
-                    <a href="https://www.youtube.com/watch?v=Dkk9gvTmCXY&ab_channel=TaylorSwiftVEVO" target="_blank">you need to calm down</a>
-                    <a href="https://www.youtube.com/watch?v=ic8j13piAhQ&ab_channel=TaylorSwiftVEVO" target="_blank">cruel summer</a>
+                <h4>She would've made such a lovely bride. What a shame she's fucked in the head.</h4>
+                <div class="era-text" id="era-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                        sapiente vitae ab, recusandae in dicta mollitia saepe obcaecati velit cupiditate natus nostrum
+                        dolorem. Possimus a sunt nostrum aliquid aut esse.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+                        voluptate. Voluptas repellendus placeat dignissimos, maxime reprehenderit exercitationem
+                        similique id officiis, explicabo dolor quas minus autem saepe non? Suscipit, delectus voluptas.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                        quae tenetur minima error voluptate unde quisquam explicabo fugit facilis laborum! Similique
+                        aperiam veniam, ullam dignissimos libero placeat. Iusto, numquam? Tempora!</p>
                 </div>
-                <p class="read-more"><b>Read More</b></p>
+                <div class="songs-container">
+                    <a href="https://www.youtube.com/watch?v=FuXNumBwDOM&ab_channel=TaylorSwiftVEVO"
+                        target="_blank">me</a>
+                    <a href="https://www.youtube.com/watch?v=AqAJLh9wuZ0&ab_channel=TaylorSwiftVEVO"
+                        target="_blank">man</a>
+                    <a href="https://www.youtube.com/watch?v=Dkk9gvTmCXY&ab_channel=TaylorSwiftVEVO" target="_blank">you
+                        need to calm down</a>
+                    <a href="https://www.youtube.com/watch?v=ic8j13piAhQ&ab_channel=TaylorSwiftVEVO"
+                        target="_blank">cruel summer</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="read-more-section">
+            <button id="read-more-3" class="read-more">
+                <b>Read More</b>
+            </button>
+            <script src="read-more-button-script.js"></script>
+            <div id="era-text-mobile-3" class="era-text-mobile-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                    sapiente vitae ab, recusandae in dicta mollitia saepe obcaecati velit cupiditate natus nostrum
+                    dolorem. Possimus a sunt nostrum aliquid aut esse.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+                    voluptate. Voluptas repellendus placeat dignissimos, maxime reprehenderit exercitationem
+                    similique id officiis, explicabo dolor quas minus autem saepe non? Suscipit, delectus voluptas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                    quae tenetur minima error voluptate unde quisquam explicabo fugit facilis laborum! Similique
+                    aperiam veniam, ullam dignissimos libero placeat. Iusto, numquam? Tempora!</p>
             </div>
         </section>
 
         <section class="era-container">
-            <div class="era-text-container left-side-era"> 
+            <div class="era-text-container left-side-era">
                 <h2>Midnights,2022</h2>
-                <h4>I'm the only one of me</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente vitae ab, recusandae in dicta mollitia saepe obcaecati velit cupiditate natus nostrum dolorem. Possimus a sunt nostrum aliquid aut esse.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptate. Voluptas repellendus placeat dignissimos, maxime reprehenderit exercitationem similique id officiis, explicabo dolor quas minus autem saepe non? Suscipit, delectus voluptas.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae tenetur minima error voluptate unde quisquam explicabo fugit facilis laborum! Similique aperiam veniam, ullam dignissimos libero placeat. Iusto, numquam? Tempora!</p>
-                <div class="songs-container">
-                    <a href="https://www.youtube.com/watch?v=FuXNumBwDOM&ab_channel=TaylorSwiftVEVO" target="_blank">me</a>
-                    <a href="https://www.youtube.com/watch?v=AqAJLh9wuZ0&ab_channel=TaylorSwiftVEVO" target="_blank">man</a>
-                    <a href="https://www.youtube.com/watch?v=Dkk9gvTmCXY&ab_channel=TaylorSwiftVEVO" target="_blank">you need to calm down</a>
-                    <a href="https://www.youtube.com/watch?v=ic8j13piAhQ&ab_channel=TaylorSwiftVEVO" target="_blank">cruel summer</a>
+                <h4>Lately I've been dressing for revenge</h4>
+                <div class="era-text" id="era-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente vitae ab, recusandae in
+                        dicta
+                        mollitia saepe obcaecati velit cupiditate natus nostrum dolorem. Possimus a sunt nostrum aliquid
+                        aut
+                        esse.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptate. Voluptas repellendus
+                        placeat dignissimos, maxime reprehenderit exercitationem similique id officiis, explicabo dolor
+                        quas
+                        minus autem saepe non? Suscipit, delectus voluptas.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae tenetur minima error
+                        voluptate
+                        unde quisquam explicabo fugit facilis laborum! Similique aperiam veniam, ullam dignissimos
+                        libero
+                        placeat. Iusto, numquam? Tempora!</p>
                 </div>
-                <p class="read-more"><b>Read More</b></p>
+                <div class="songs-container">
+                    <a href="https://www.youtube.com/watch?v=FuXNumBwDOM&ab_channel=TaylorSwiftVEVO"
+                        target="_blank">me</a>
+                    <a href="https://www.youtube.com/watch?v=AqAJLh9wuZ0&ab_channel=TaylorSwiftVEVO"
+                        target="_blank">man</a>
+                    <a href="https://www.youtube.com/watch?v=Dkk9gvTmCXY&ab_channel=TaylorSwiftVEVO" target="_blank">you
+                        need to calm down</a>
+                    <a href="https://www.youtube.com/watch?v=ic8j13piAhQ&ab_channel=TaylorSwiftVEVO"
+                        target="_blank">cruel summer</a>
+                </div>
             </div>
-            <img src="images/lover-image.jpg" alt="" class="era-image">
+            <img src="images/midnights-image.jpg" alt="" class="era-image">
+        </section>
+
+        <section class="read-more-section">
+            <button id="read-more-4" class="read-more">
+                <b>Read More</b>
+            </button>
+            <script src="read-more-button-script.js"></script>
+            <div id="era-text-mobile-4" class="era-text-mobile-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                    sapiente vitae ab, recusandae in dicta mollitia saepe obcaecati velit cupiditate natus nostrum
+                    dolorem. Possimus a sunt nostrum aliquid aut esse.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+                    voluptate. Voluptas repellendus placeat dignissimos, maxime reprehenderit exercitationem
+                    similique id officiis, explicabo dolor quas minus autem saepe non? Suscipit, delectus voluptas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                    quae tenetur minima error voluptate unde quisquam explicabo fugit facilis laborum! Similique
+                    aperiam veniam, ullam dignissimos libero placeat. Iusto, numquam? Tempora!</p>
+            </div>
+        </section>
 
     </main>
 

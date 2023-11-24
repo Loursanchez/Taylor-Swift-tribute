@@ -4,8 +4,8 @@ body {
     margin: 0;
     font-family: 'Roboto Mono', monospace;
 }
-/*style to maje all text white */
-h1, h2, h3, p, li, h4, h5, a { color: white;}
+/*style to make all text white */
+h1, h2, h3, p, li,h4, h5, a { color: white;}
 
 /* header image */
 
@@ -161,9 +161,22 @@ main {
     padding: 0;
 }
 
-.read-more {
+h4 {
+    font-family: 'Allura', cursive;
+    text-shadow: 0 0 10px white;
+    font-size: 32px;
+    margin: 0;
+}
+
+.left-side-era {
+    margin-left: 0%;
+    margin-right: 5%;
+}
+
+.read-more-section {
     display: none;
 }
+
 
 @media screen and (max-width: 768px) {
     .era-container {
@@ -185,15 +198,33 @@ main {
         height: auto;
     }
 
-    .left-side-era {
-        margin-left: 0%;
+    .read-more-section {
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        flex-direction: column;
+        justify-self: flex-start;
     }
-    p {
+    .era-text-mobile-1, .era-text-mobile-2, .era-text-mobile-3, .era-text-mobile-4 {
         display: none;
+        flex-direction: column;
     }
 
-    .read-more {
-        display: block;
+    button {
+    background: none;
+    border: none;
+    color: white; 
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline; 
+    cursor: pointer;
+    font-size: 20px; 
+    padding: 0; 
+    margin: 0; 
+    }
+
+    .era-text {
+        display: none;
     }
 
     .songs-container {
@@ -202,5 +233,9 @@ main {
 
     h2 {
         font-size: 20px;
+    }
+
+    h4 {
+        font-size: 40px;
     }
 }
