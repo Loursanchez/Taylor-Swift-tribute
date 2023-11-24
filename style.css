@@ -1,3 +1,20 @@
+
+/* FOOTER mobile */
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+footer {
+    background-color: #F9F4F2;
+    text-align: center;
+}
+/* FOOTER desktop */
+@media screen and (min-width: 768px){
+    footer{
+        display: flex;
+        
+
+}
 body {
     background-color: #F9F4F2; 
     color: #000; 
